@@ -1,0 +1,69 @@
+/* Glassmorphism Apple Style - Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow: hidden;
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    font-size: 14px;
+}
+
+.controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+.control-group {
+    margin: 10px 0;
+    color: white;
+}
+
+.control-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.control-group input {
+    width: 200px;
+}
+
+.value-display {
+    color: #4ecdc4;
+    font-weight: bold;
+}
+
+#background-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#glass-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
